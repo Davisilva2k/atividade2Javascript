@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade=30;
+        if(idade<13 && idade>=0){
+            console.log("Criança")
+        }else if(idade>12 && idade<18){
+            console.log("Adolescente")
+        }else if(idade>17 && idade<65){
+            console.log("Adulto")
+        }else if(idade<0){
+            console.log("Erro cabeção")
+        }else{
+            console.log("Idoso")
+        }
+
+    </script>
+</body>
+</html>
